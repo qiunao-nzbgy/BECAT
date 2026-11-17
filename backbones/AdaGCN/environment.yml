@@ -1,0 +1,11 @@
+name: becat-adagcn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.5.2
+  - numpy=1.16.2
+  - scipy
+  - pip
+  - pip:
+      - tensorflow-gpu==1.13.0rc0

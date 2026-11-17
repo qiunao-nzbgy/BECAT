@@ -1,0 +1,15 @@
+name: becat-a2gnn
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.7,<3.11
+  - pytorch=1.11.0
+  - pyg=2.1.0
+  - pytorch-scatter=2.0.9
+  - pytorch-sparse=0.6.13
+  - pytorch-cluster=1.6.0
+  - numpy=1.19.2
+  - scikit-learn=0.24.2
