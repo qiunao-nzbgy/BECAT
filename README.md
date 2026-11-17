@@ -18,11 +18,6 @@ Graph domain adaptation (GDA) transfers a node classifier from a labeled source 
 
 <p align="center"><strong>Figure 1. Overview of the BECAT framework.</strong></p>
 
-1. **Latent graph reconstruction.** Build sparse weighted graphs from backbone-produced source and target node embeddings.
-2. **Soft latent BEC computation.** Derive differentiable node-wise curvature signatures with a trace-based soft Bakry–Émery curvature proxy. 
-3. **Geometry distribution alignment.** Reduce source–target discrepancy by matching curvature-signature means and standard deviations.
-4. **Curvature-aware refinement.** Apply hybrid curvature relative positional bias in sparse graph attention, then update node embeddings through a dimension-preserving residual connection.
-
 The original backbone adaptation mechanism remains in place; BECAT adds a geometry loss and refines the classifier-facing representations.
 
 ## 🌟Key features
