@@ -26,8 +26,8 @@ or permission, and no license has been inferred.
 
 ## Author-review checklist
 
-- Select the root BECAT project license only for the final public release; the
-  anonymous-review artifact intentionally omits one.
+- Select a root BECAT project license before public release; this repository
+  currently has no root license file.
 - Confirm redistribution permission or obtain license clarification for DGSDA,
   GRADE, A2GNN, DANN, ASN, and AdaGCN before public release. Their upstream
   repository roots did not provide license evidence during this audit.

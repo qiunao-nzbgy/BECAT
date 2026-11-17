@@ -1,7 +1,7 @@
 # Citation dataset provenance and interfaces
 
 No dataset files, processed caches, or MATLAB binaries are bundled in this
-anonymous-review repository. Supply the appropriate dataset externally and
+repository. Supply the appropriate dataset externally and
 pass its root through the selected backbone's documented interface.
 
 ## Raw-text Citation layout
@@ -58,7 +58,7 @@ fields. Target-training loaders isolate graph/features from `group`, and load
 target labels separately for final evaluation as described in each backbone
 README.
 
-This anonymous-review repository does not redistribute the `.mat` files and
+This repository does not redistribute the `.mat` files and
 does not provide an unverified alternative download URL.
 
 ## Relationship between the layouts
