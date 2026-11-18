@@ -3,13 +3,14 @@
 # 🐱 BECAT: Bakry–Émery Curvature Alignment for Graph Domain Adaptation
 
 BECAT is a plug-and-play, backbone-agnostic graph domain adaptation adapter. 
+
 It uses latent geometric information to refine existing node representations while preserving the backbone's adaptation mechanism.
 
 </div>
 
 ## 🧭Overview
 
-Graph domain adaptation (GDA) transfers a node classifier from a labeled source graph to an unlabeled target graph. Existing methods address differences in node features and graph structure through adversarial, structural, spectral, and other objectives. Yet the local geometry induced by their learned representations may still differ across domains. BECAT adds a geometry-aware refinement step to an existing GDA backbone: it reconstructs sparse weighted latent graphs from the backbone embeddings, computes differentiable node-wise curvature signatures, aligns source and target curvature statistics, and uses curvature-aware sparse attention to refine the embeddings. The refined representations feed the downstream classifier; the backbone's original adaptation branch continues to use its original representations. BECAT is therefore complementary to the existing adaptation objective, rather than a replacement for it.
+BECAT adds a geometry-aware refinement step to an existing GDA backbone: it reconstructs sparse weighted latent graphs from the backbone embeddings, computes differentiable node-wise curvature signatures, aligns source and target curvature statistics, and uses curvature-aware sparse attention to refine the embeddings. The refined representations feed the downstream classifier; the backbone's original adaptation branch continues to use its original representations. 
 
 ## 🧩Framework
 
