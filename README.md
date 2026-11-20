@@ -2,9 +2,7 @@
 
 # 🐱 BECAT: Bakry–Émery Curvature Alignment for Graph Domain Adaptation
 
-BECAT is a plug-and-play, backbone-agnostic graph domain adaptation adapter. 
-
-It uses latent geometric information to refine existing node representations while preserving the backbone's adaptation mechanism.
+BECAT is a plug-and-play, backbone-agnostic graph domain adaptation adapter. It uses latent geometric information to refine existing node representations while preserving the backbone's adaptation mechanism.
 
 </div>
 
