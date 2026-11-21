@@ -35,9 +35,6 @@ only after the best source-validation checkpoint has been restored. Legacy
 
 ## Running experiments
 
-The final training seeds are `200, 201, 202, 203, 204`. Both scripts fix this
-same seed list and use the independent source split seed `42`:
-
 ```bash
 DATA_ROOT=/datasets/Citation \
   bash backbones/A2GNN/scripts/run_baseline.sh
