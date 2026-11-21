@@ -86,9 +86,6 @@ bash backbones/SpecReg/scripts/run_baseline.sh /absolute/path/to/Citation
 bash backbones/SpecReg/scripts/run_becat.sh /absolute/path/to/Citation
 ```
 
-Each script runs all six transfers with seeds `23`, `202`, `11`, `27`, `201`
-and split seed `42`.
-
 ## Environment
 
 Framework: PyTorch with PyG, torch-scatter, NumPy, scikit-learn, and tqdm.
