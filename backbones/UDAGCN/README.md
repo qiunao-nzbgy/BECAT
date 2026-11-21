@@ -46,8 +46,6 @@ label-bearing cache.
 
 ## Running experiments
 
-Training seeds default to `5 7 11 23 2026`; `SEEDS` can override the list.
-
 The final +BECAT settings are:
 
 | Setting | Value |
