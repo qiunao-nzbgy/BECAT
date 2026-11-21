@@ -23,16 +23,3 @@ or permission, and no license has been inferred.
 | ASN | The upstream README names *Adversarial Separation Network for Cross-Network Node Classification*, but its `Reference` section is empty. | https://github.com/yuntaodu/ASN | No license file or GitHub-detected license found at the repository root. | None supplied; license/permission requires author review before public release. | Citation-only extraction, target-label isolation/checkpoint protocol, optional BECAT classifier path, unified package/path assembly. |
 | PairAlign | The upstream README provides a BibTeX citation for *Pairwise Alignment Improves Graph Domain Adaptation* (ICML 2024). | https://github.com/Graph-COM/Pair-Align | MIT License, copyright 2024 Graph-COM. | Upstream MIT License and copyright notice preserved at `backbones/PairAlign/LICENSE`. | Citation-only extraction, frozen PairAlign/BECAT protocol, unified package/path assembly. |
 | AdaGCN | The upstream README provides a full citation and BibTeX entry for *Graph Transfer Learning via Adversarial Domain Adaptation with Graph Convolution* (IEEE TKDE, 2022). | https://github.com/daiquanyu/AdaGCN_TKDE | No license file or GitHub-detected license found at the repository root. | None supplied; license/permission requires author review before public release. | Citation-only TensorFlow 1.x path, target-label isolation/checkpoint protocol, TensorFlow-native BECAT integration, unified package/path assembly. |
-
-## Author-review checklist
-
-- Select a root BECAT project license before public release; this repository
-  currently has no root license file.
-- Confirm redistribution permission or obtain license clarification for DGSDA,
-  GRADE, A2GNN, DANN, ASN, and AdaGCN before public release. Their upstream
-  repository roots did not provide license evidence during this audit.
-- Complete formal bibliography entries for DGSDA, DANN, and ASN from
-  authoritative paper sources before public release if full citations are
-  required; the upstream READMEs do not provide complete citation records.
-- Retain the preserved SpecReg, PairAlign, and UDAGCN license files with the
-  corresponding third-party code.
