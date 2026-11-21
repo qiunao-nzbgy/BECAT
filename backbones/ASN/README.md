@@ -39,8 +39,6 @@ restoration.
 
 ## Running experiments
 
-Training seeds are `1, 2, 3, 4, 5`; the split seed is `42`.
-
 The final +BECAT settings are:
 
 | Setting | Value |
