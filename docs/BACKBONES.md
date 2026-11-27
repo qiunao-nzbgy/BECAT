@@ -1,16 +1,8 @@
 # Backbone provenance and license audit
 
 The backbone implementations originate from the third-party research
-repositories listed below. The BECAT project does not claim authorship of
-those implementations. Baseline paper citations, repository links, and
-third-party license notices are scientific and legal provenance; they are not
-BECAT-author identity information.
+repositories listed below.
 
-The upstream evidence in this document was checked against the linked
-repository roots and their README files on 2026-08-24. A missing license entry
-means that no license file or GitHub-detected license was present at the
-upstream repository root during that inspection. It does not imply any license
-or permission, and no license has been inferred.
 
 | Backbone | Upstream paper/citation evidence | Authoritative upstream repository | Upstream license evidence | Preserved local license/notice | Local modifications in this release |
 |---|---|---|---|---|---|
