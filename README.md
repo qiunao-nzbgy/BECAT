@@ -97,6 +97,5 @@ For the Citation protocol, source nodes are split 80%/10%/10% for training/valid
 ## 🔗Citation
 **Coming Soon**
 
-## Attribution and licenses
-
-BECAT does not claim authorship of the integrated third-party backbones. See the [backbone provenance and license audit](docs/BACKBONES.md) for source repositories, preserved notices, and items requiring author review before release.
+## licenses
+See the [backbone provenance and license audit](docs/BACKBONES.md) for source repositories and preserved notices.
