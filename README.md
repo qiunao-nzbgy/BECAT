@@ -100,4 +100,4 @@ For the Citation protocol, source nodes are split 80%/10%/10% for training/valid
 
 ## 📎Supplementary material
 
-The [supplementary material](BECAT-supplementary.pdf) provides the proof of Theorem 3.1 and a theoretical bound relating BECAT's differentiable curvature proxy to exact Bakry–Émery curvature. It also includes detailed computational overhead measurements, additional curvature-proxy fidelity results across the six citation transfer tasks, and numerical validation of the exact-curvature implementation.
+See [supplementary material](BECAT-supplementary.pdf) for theoretical proofs and additional experimental results.
