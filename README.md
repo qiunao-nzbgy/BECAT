@@ -33,6 +33,7 @@ BECAT/
 │   ├── torch/              # shared PyTorch adapter
 │   └── tensorflow/         # TensorFlow 1.x adapter for AdaGCN
 ├── docs/                   # data, environment, and backbone provenance notes
+├── BECAT-supplementary.pdf # supplementary theoretical results and experimental details
 └── README.md
 ```
 
@@ -97,5 +98,6 @@ For the Citation protocol, source nodes are split 80%/10%/10% for training/valid
 ## 🔗Citation
 **Coming Soon**
 
-## licenses
-See the [backbone provenance and license audit](docs/BACKBONES.md) for source repositories and preserved notices.
+## 📎Supplementary material
+
+The [supplementary material](BECAT-supplementary.pdf) provides the proof of Theorem 3.1 and a theoretical bound relating BECAT's differentiable curvature proxy to exact Bakry–Émery curvature. It also includes detailed computational overhead measurements, additional curvature-proxy fidelity results across the six citation transfer tasks, and numerical validation of the exact-curvature implementation.
